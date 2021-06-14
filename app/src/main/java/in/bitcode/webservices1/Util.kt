@@ -10,6 +10,7 @@ class Util {
     fun demoReqRes() {
 
         var url = URL("https://bitcode.in")
+        //var url = URL("https://bitcode.in/images/logo/bitcode.png")
         var httpUrlConnection : HttpURLConnection = url.openConnection() as HttpURLConnection
         httpUrlConnection.connect() //now the http request is sent to the server
 
